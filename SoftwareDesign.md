@@ -5,12 +5,7 @@ Based on:
  - https://stephenleewalker.wordpress.com/2015/10/12/parallels-between-refactoring-and-tdd/#more-63
 
 # Software Design
-At the start of my apprenticeship, whenever I got a new coding project I sat down with my notebook and designed the structure of the application. I attempted to determine all the implementation details of the application. However, many times I would run into some of the problems common of upfront design: 
- - There were problems I did not foresee 
- - I implemented things that were never used
- - I changed my design several times
- 
-It was clear that this approach, especially with problems I was unfamiliar with, was not effective. It was only after several mistakes and the guidance of my mentors that I realized I had the tools to produce quality software, but I was not using them correctly. These tools are Test Driven Development and refactoring. 
+At the start of my apprenticeship, whenever I got a new coding project I sat down with my notebook and designed the structure of the application. I attempted to determine all the implementation details of the application. However, many times I would run into some of the problems common of upfront design: there were problems I did not foresee, I implemented things that were never used, and I changed my design several times. It was clear that this approach, especially with problems I was unfamiliar with, was not effective. It was only after several mistakes and the guidance of my mentors that I realized I had the tools to produce quality software, but I was not using them correctly. These tools are Test Driven Development and refactoring. 
 
 Test Driven Development (TDD) is the foundation of designing quality software.  Looking back at the start of my apprenticeship, my code suffered because I confused unit testing with TDD. In other words, just because I had tests did not mean I was applying TDD. Initially I was letting my understanding of an application's design drive my tests, rather than the other way around. 
 > I need to translate a vector of integers into a map of values that I can use in my view to present a Tic-Tac-Toe board. To present the board in my view, I need an index for each table cell, I need to know what text goes in each cell, is the cell clickable, etc.
