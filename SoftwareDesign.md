@@ -12,7 +12,7 @@ Test Driven Development (TDD) is the foundation of designing quality software.  
 My desire was to fully understand the end product so that I could ensure I get there. But the beauty of TDD is that, "algorithms tend to write themselves" (Martin, Clean Coders Episode 19). 
   > Aside: A great example of this is the [Primes Factors Kata](http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata).
 
-It does this by enforcing the 'divide-and-conquer' technique to break down a problem. Applied appropriately, one starts with the base cases and works their way up. As a result, "as tests get more specific, code gets more generic", (Martin, [The Cycles Of TDD](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)). It is not so much a conscience decision as it is a requirement to keep the lights green. 
+It does this by enforcing the 'divide-and-conquer' technique to break down a problem. Applied appropriately, one starts with the base cases and works their way up. As a result, "as tests get more specific, code gets more generic", (Martin, [The Cycles Of TDD](http://blog.cleancoder.com/uncle-bob/2014/12/17/TheCyclesOfTDD.html)). It is not so much a conscious decision as it is a requirement to keep the lights green. 
 > My thought process when using TDD:
 
 > (testing "it can present an empty board space" ...)
