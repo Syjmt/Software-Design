@@ -1,7 +1,7 @@
 # Context
 Based on: 
- - https://stephenleewalker.wordpress.com/2015/09/09/tdd/#more-54
- - https://stephenleewalker.wordpress.com/2015/10/12/parallels-between-refactoring-and-tdd/#more-63
+ - https://stephenleewalker.wordpress.com/2015/09/09/tdd/
+ - https://stephenleewalker.wordpress.com/2015/10/12/parallels-between-refactoring-and-tdd/
 
 # Designing Software with TDD and Refactoring
 At the start of my apprenticeship, whenever I got a new coding project I sat down with my notebook and designed the structure of the application. I attempted to determine all the implementation details of the application. However, many times I would run into some of the problems common of upfront design: there were problems I did not foresee, I implemented things that were never used, and I changed my design several times. It was clear that this approach, especially with problems I was unfamiliar with, was not effective. It was only after several mistakes and the guidance of my mentors that I realized I had the tools to produce quality software, but I was not using them correctly. These tools are Test Driven Development and refactoring. 
