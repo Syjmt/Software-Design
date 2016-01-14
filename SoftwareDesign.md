@@ -5,7 +5,7 @@ Based on:
  - https://stephenleewalker.wordpress.com/2015/10/12/parallels-between-refactoring-and-tdd/#more-63
 
 # Software Design
-At the start of my apprenticeship, whenever I got a new coding project I would sit down with my notebook and start designing the structure of my application. I attempted to determine the implementation details of the application. However, many times I would run into some of the problems common of upfront design: 
+At the start of my apprenticeship, whenever I got a new coding project I sat down with my notebook and designed the structure of the application. I attempted to determine all the implementation details of the application. However, many times I would run into some of the problems common of upfront design: 
  - There were problems I did not foresee 
  - I implemented things that were never used
  - I changed my design several times
@@ -27,9 +27,9 @@ It does this by enforcing the 'divide-and-conquer' technique to break down a pro
 
 > (testing "it can present a board" ...)
 
-Now, I do not need to fully determine the implementation details at a project's start because I am confident that a design will emerge through TDD. That design is further defined and improved through refactoring.
+Now, I do not need to fully determine the implementation details at a project's start because I am confident that a design will emerge through TDD (This realization is why some refer to TDD as 'Test Driven Design'). That design is further defined and improved through refactoring.
 
-Refactoring complements TDD to produce robust designs.  I used to think of refactoring as any change to your code that does not add functionality but improves the design. While this is true, I missed one important factor: refactoring is done in small steps. Like TDD, refactorings should be done incrementally, ensuring that all your tests still pass. The point of refactoring is to keep your application running while improving its design. In conjunction with TDD, a cycle develops: 
+Refactoring complements TDD to produce robust designs.  I used to think of refactoring as any change to your code that improves its design without changing its behavior. While this is true, I missed one important factor: refactoring is done in small steps. Like TDD, refactorings should be done incrementally, ensuring that all your tests still pass. The point of refactoring is to keep your application running while improving its design. In conjunction with TDD, a cycle develops: 
  - Write the least amount of code to create a failing unit test
  - Write the least amount of production code that is sufficient to pass the failing test
  - Refactor
